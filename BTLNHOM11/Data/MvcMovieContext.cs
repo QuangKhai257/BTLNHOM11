@@ -20,6 +20,14 @@ namespace MvcMovie.Data
 
         public DbSet<BTLNHOM11.Models.nhacungcap> nhacungcap { get; set; } = default!;
 
+        public DbSet<BTLNHOM11.Models.sanpham> sanpham { get; set; } = default!;
+
+        public DbSet<BTLNHOM11.Models.nhaphang> nhaphang { get; set; } = default!;
+
+        public DbSet<BTLNHOM11.Models.khachhang> khachhang { get; set; } = default!;
+
+        public DbSet<BTLNHOM11.Models.hoadon> hoadon { get; set; } = default!;
+
        
     }
 }

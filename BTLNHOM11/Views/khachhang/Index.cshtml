@@ -1,0 +1,47 @@
+@model IEnumerable<BTLNHOM11.Models.khachhang>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.tenkh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.diachikh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sdtkh)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.tenkh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.diachikh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sdtkh)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.makh">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.makh">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.makh">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

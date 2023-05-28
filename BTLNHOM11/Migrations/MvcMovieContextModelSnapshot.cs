@@ -35,6 +35,57 @@ namespace BTLNHOM11.Migrations
                     b.ToTable("chucvu");
                 });
 
+            modelBuilder.Entity("BTLNHOM11.Models.hoadon", b =>
+                {
+                    b.Property<string>("mahd")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("soluongban")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("tenkh")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("tensp")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("tgban")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("mahd");
+
+                    b.HasIndex("tenkh");
+
+                    b.HasIndex("tensp");
+
+                    b.ToTable("hoadon");
+                });
+
+            modelBuilder.Entity("BTLNHOM11.Models.khachhang", b =>
+                {
+                    b.Property<string>("makh")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("diachikh")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("sdtkh")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("tenkh")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("makh");
+
+                    b.ToTable("khachhang");
+                });
+
             modelBuilder.Entity("BTLNHOM11.Models.nhacungcap", b =>
                 {
                     b.Property<string>("mancc")
@@ -104,6 +155,72 @@ namespace BTLNHOM11.Migrations
                     b.ToTable("nhanvien");
                 });
 
+            modelBuilder.Entity("BTLNHOM11.Models.nhaphang", b =>
+                {
+                    b.Property<string>("idnh")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("ngaynh")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("soluongnh")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("tenncc")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("tensp")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("idnh");
+
+                    b.HasIndex("tenncc");
+
+                    b.HasIndex("tensp");
+
+                    b.ToTable("nhaphang");
+                });
+
+            modelBuilder.Entity("BTLNHOM11.Models.sanpham", b =>
+                {
+                    b.Property<string>("masp")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("gia")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("tensp")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("masp");
+
+                    b.ToTable("sanpham");
+                });
+
+            modelBuilder.Entity("BTLNHOM11.Models.hoadon", b =>
+                {
+                    b.HasOne("BTLNHOM11.Models.khachhang", "khachhang")
+                        .WithMany()
+                        .HasForeignKey("tenkh")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BTLNHOM11.Models.sanpham", "sanpham")
+                        .WithMany()
+                        .HasForeignKey("tensp")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("khachhang");
+
+                    b.Navigation("sanpham");
+                });
+
             modelBuilder.Entity("BTLNHOM11.Models.nhanvien", b =>
                 {
                     b.HasOne("BTLNHOM11.Models.chucvu", "chucvu")
@@ -113,6 +230,25 @@ namespace BTLNHOM11.Migrations
                         .IsRequired();
 
                     b.Navigation("chucvu");
+                });
+
+            modelBuilder.Entity("BTLNHOM11.Models.nhaphang", b =>
+                {
+                    b.HasOne("BTLNHOM11.Models.nhacungcap", "nhacungcap")
+                        .WithMany()
+                        .HasForeignKey("tenncc")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BTLNHOM11.Models.sanpham", "sanpham")
+                        .WithMany()
+                        .HasForeignKey("tensp")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("nhacungcap");
+
+                    b.Navigation("sanpham");
                 });
 #pragma warning restore 612, 618
         }

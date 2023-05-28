@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KHA\\Desktop\\BTLNHOM11\\BTLNHOM11\\BTLNHOM11.csproj": {}
+    "D:\\Bàn Làm Việc\\BTL\\BTLNHOM11\\BTLNHOM11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KHA\\Desktop\\BTLNHOM11\\BTLNHOM11\\BTLNHOM11.csproj": {
+    "D:\\Bàn Làm Việc\\BTL\\BTLNHOM11\\BTLNHOM11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KHA\\Desktop\\BTLNHOM11\\BTLNHOM11\\BTLNHOM11.csproj",
+        "projectUniqueName": "D:\\Bàn Làm Việc\\BTL\\BTLNHOM11\\BTLNHOM11.csproj",
         "projectName": "BTLNHOM11",
-        "projectPath": "C:\\Users\\KHA\\Desktop\\BTLNHOM11\\BTLNHOM11\\BTLNHOM11.csproj",
-        "packagesPath": "C:\\Users\\KHA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KHA\\Desktop\\BTLNHOM11\\BTLNHOM11\\obj\\",
+        "projectPath": "D:\\Bàn Làm Việc\\BTL\\BTLNHOM11\\BTLNHOM11.csproj",
+        "packagesPath": "C:\\Users\\LAPTOPSN\\.nuget\\packages\\",
+        "outputPath": "D:\\Bàn Làm Việc\\BTL\\BTLNHOM11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KHA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\LAPTOPSN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

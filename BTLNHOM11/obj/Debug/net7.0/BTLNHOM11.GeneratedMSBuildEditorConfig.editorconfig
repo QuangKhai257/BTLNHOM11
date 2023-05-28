@@ -9,97 +9,181 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BTLNHOM11
 build_property.RootNamespace = BTLNHOM11
-build_property.ProjectDir = C:\Users\KHA\Desktop\BTLNHOM11\BTLNHOM11\
+build_property.ProjectDir = D:\Bàn Làm Việc\BTL\BTLNHOM11\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\KHA\Desktop\BTLNHOM11\BTLNHOM11
+build_property.MSBuildProjectDirectory = D:\Bàn Làm Việc\BTL\BTLNHOM11
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/chucvu/Create.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/chucvu/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2h1Y3Z1XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/chucvu/Delete.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/chucvu/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2h1Y3Z1XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/chucvu/Details.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/chucvu/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2h1Y3Z1XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/chucvu/Edit.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/chucvu/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2h1Y3Z1XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/chucvu/Index.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/chucvu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2h1Y3Z1XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/Home/Index.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/hoadon/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaG9hZG9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/hoadon/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaG9hZG9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/hoadon/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaG9hZG9uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/hoadon/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaG9hZG9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/hoadon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaG9hZG9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/Home/Privacy.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/nhacungcap/Create.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/khachhang/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca2hhY2hoYW5nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/khachhang/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca2hhY2hoYW5nXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/khachhang/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca2hhY2hoYW5nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/khachhang/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca2hhY2hoYW5nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/khachhang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca2hhY2hoYW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhacungcap/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhY3VuZ2NhcFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/nhacungcap/Delete.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhacungcap/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhY3VuZ2NhcFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/nhacungcap/Details.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhacungcap/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhY3VuZ2NhcFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/nhacungcap/Edit.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhacungcap/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhY3VuZ2NhcFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/nhacungcap/Index.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhacungcap/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhY3VuZ2NhcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/nhanvien/Create.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhanvien/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhbnZpZW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/nhanvien/Delete.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhanvien/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhbnZpZW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/nhanvien/Details.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhanvien/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhbnZpZW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/nhanvien/Edit.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhanvien/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhbnZpZW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/nhanvien/Index.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhanvien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhbnZpZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/Shared/Error.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhaphang/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhcGhhbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhaphang/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhcGhhbmdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhaphang/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhcGhhbmdcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhaphang/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhcGhhbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/nhaphang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbmhhcGhhbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/sanpham/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FucGhhbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/sanpham/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FucGhhbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/sanpham/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FucGhhbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/sanpham/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FucGhhbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/sanpham/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FucGhhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/sanpham/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FucGhhbVxVcGxvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/_ViewImports.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/_ViewStart.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHA/Desktop/BTLNHOM11/BTLNHOM11/Views/Shared/_Layout.cshtml]
+[D:/Bàn Làm Việc/BTL/BTLNHOM11/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h5musadcjy

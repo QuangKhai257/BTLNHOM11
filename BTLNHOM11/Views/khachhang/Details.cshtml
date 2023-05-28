@@ -1,0 +1,36 @@
+@model BTLNHOM11.Models.khachhang
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>khachhang</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.tenkh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.tenkh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.diachikh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.diachikh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.sdtkh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.sdtkh)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.makh">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

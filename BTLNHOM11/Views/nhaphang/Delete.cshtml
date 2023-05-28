@@ -1,0 +1,45 @@
+@model BTLNHOM11.Models.nhaphang
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>nhaphang</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.sanpham)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.sanpham.masp)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nhacungcap)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nhacungcap.mancc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.soluongnh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.soluongnh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ngaynh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ngaynh)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idnh" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
