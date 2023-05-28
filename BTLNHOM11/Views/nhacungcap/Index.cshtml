@@ -1,0 +1,59 @@
+@model IEnumerable<BTLNHOM11.Models.nhacungcap>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.mancc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tenncc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.diachincc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sdtncc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.emailncc)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.mancc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tenncc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.diachincc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sdtncc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.emailncc)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.mancc">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.mancc">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.mancc">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

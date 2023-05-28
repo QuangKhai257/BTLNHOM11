@@ -1,0 +1,83 @@
+@model IEnumerable<BTLNHOM11.Models.nhanvien>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.manv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tennv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.gtnv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nsnv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sdtnv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.diachinv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.emailnv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.chucvu.tencv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ngaylamnv)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.manv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tennv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gtnv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nsnv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sdtnv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.diachinv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.emailnv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.chucvu.tencv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ngaylamnv)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.manv">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.manv">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.manv">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

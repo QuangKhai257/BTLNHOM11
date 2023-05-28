@@ -1,0 +1,44 @@
+@model BTLNHOM11.Models.chucvu
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>chucvu</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="idcv" />
+            <div class="form-group">
+                <label asp-for="idcv" class="control-label"></label>
+                <input asp-for="idcv" class="form-control" />
+                <span asp-validation-for="idcv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tencv" class="control-label"></label>
+                <input asp-for="tencv" class="form-control" />
+                <span asp-validation-for="tencv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="motacv" class="control-label"></label>
+                <input asp-for="motacv" class="form-control" />
+                <span asp-validation-for="motacv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

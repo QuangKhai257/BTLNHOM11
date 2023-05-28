@@ -1,0 +1,72 @@
+@model BTLNHOM11.Models.nhanvien
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>nhanvien</h4>
+    <hr />
+    <dl class="row">
+         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.manv)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.manv)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.tennv)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.tennv)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.gtnv)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.gtnv)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nsnv)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nsnv)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.sdtnv)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.sdtnv)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.diachinv)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.diachinv)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.emailnv)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.emailnv)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.chucvu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.chucvu.idcv)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ngaylamnv)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ngaylamnv)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.manv">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
